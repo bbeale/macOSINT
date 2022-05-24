@@ -1,12 +1,12 @@
-Mapper (proper name TBD)
+macOSINT
 
-A toy map project that, with some additions, will become an OSINT tool.
+An OSINT tool written for macOS.
 
-Motivation comes from approx. 60% desire to get better at Swift and 40% desire to create one single OSINT tool to interface with others that I use separately.
+Motivation comes from approx. 60% desire to get better at Swift and 40% desire to create an OSINT tool (I like to eat my dogfood).
 
 TODO: 
 
-- finish basic map implementation
+- unit tests
 - tweet annotation layer
 - instagram post annotation layer
 - update existing search function to search both of ^

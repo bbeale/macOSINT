@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    
+    @AppStorage("useLightMap") var useLightMap: Bool = false
+
     var body: some View {
         NavigationView {
-            SideBar()
-                .frame(minWidth: 300)
-            MapScreen()
+            Group {
+                SideBar()
+                    .frame(minWidth: 300)
+                MapScreen()
+            }.preferredColorScheme(useLightMap ? .light: .dark)
         }
     }
 }
